@@ -52,3 +52,23 @@ let statusPeso = verificarPeso();
 
 console.log("Seu IMC é: ", imc.toFixed(2));
 console.log("Você está ", statusPeso);
+
+// Exercício 4.
+
+function verificarFaixaEtaria() {
+    if (idade <= 12) {
+      return "Criança.";
+    } else if (idade >= 13 && idade <= 18) {
+      return "Adolescente.";
+    } else if (idade >= 19 && idade <= 60) {
+      return "Adulto.";
+    } else {
+      return "Idoso.";
+    }
+  }
+  
+  
+  let idade = prompt("Digite sua idade: ");
+  let faixaEtaria = verificarFaixaEtaria();
+  console.log("Sua faixa etária é de: ", faixaEtaria);
+  
