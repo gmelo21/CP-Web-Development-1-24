@@ -1,3 +1,5 @@
+/* Tudo comentado para não ter variáveis com o mesmo nome.
+
 // Código de set-up para Input de usuário no terminal do VS Code. 
 const prompt = require('prompt-sync')();
 
@@ -133,8 +135,6 @@ console.log("O aluno está:", status);
 
 // Exercício 7 (index.html).
 
-/*
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -166,6 +166,3 @@ const dadosFormatados = `Nome: ${nome}<br> Idade: ${idade}<br> Curso: ${curso}<b
 dadosAlunoDiv.innerHTML = dadosFormatados;
 
 */
-
-
-
