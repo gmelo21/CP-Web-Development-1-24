@@ -131,4 +131,41 @@ const status = verificarAprovacao();
 console.log("A média do aluno é:", media.toFixed(2));
 console.log("O aluno está:", status);
 
+// Exercício 7 (index.html).
+
+/*
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados do Aluno.</title>
+</head>
+<body>
+    <h1>Dados do Aluno:</h1>
+    <div id="dadosAluno"></div>  
+    <body style="background-color:rgb(126, 156, 177);"></body>
+    <script src="script.js"></script>
+ 
+</body>
+</html>
+ 
+// Exercício 7 (script.js).
+
+let nome = prompt("Digite seu nome: ");
+let idade = prompt("Digite sua idade: ");
+let curso = prompt("Digite seu curso: ");
+let ano = prompt("Digite o ano que está no curso: ");
+
+
+const dadosAlunoDiv = document.getElementById("dadosAluno");
+
+
+const dadosFormatados = `Nome: ${nome}<br> Idade: ${idade}<br> Curso: ${curso}<br> Ano: ${ano}`;
+dadosAlunoDiv.innerHTML = dadosFormatados;
+
+*/
+
+
 
