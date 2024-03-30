@@ -95,3 +95,40 @@ function autentificarUsuario() {
   
   
   console.log(mensagemLogin);
+
+  // Exercício 6.
+
+function calcularMedia () {
+
+
+    let soma = parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3) + parseFloat(nota4) + parseFloat(nota5) + parseFloat(nota6) + parseFloat(nota7);
+    return soma / 7;
+ 
+}
+
+
+  function verificarAprovacao() {
+ 
+      if (media >= 6) {
+          return "Aprovado!";
+      } else {
+          return "Reprovado!";
+      }
+    }
+
+
+const nota1 = prompt("Digite a primeira nota: ");
+const nota2 = prompt("Digite a segunda nota: ");
+const nota3 = prompt("Digite a terceira nota: ");
+const nota4 = prompt("Digite a quarta nota: ");
+const nota5 = prompt("Digite a quinta nota: ");
+const nota6 = prompt("Digite a sexta nota: ");
+const nota7 = prompt("Digite a sétima nota: ");
+ 
+const media = calcularMedia();
+const status = verificarAprovacao();
+ 
+console.log("A média do aluno é:", media.toFixed(2));
+console.log("O aluno está:", status);
+
+
