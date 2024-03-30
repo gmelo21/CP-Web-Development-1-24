@@ -165,4 +165,30 @@ const dadosAlunoDiv = document.getElementById("dadosAluno");
 const dadosFormatados = `Nome: ${nome}<br> Idade: ${idade}<br> Curso: ${curso}<br> Ano: ${ano}`;
 dadosAlunoDiv.innerHTML = dadosFormatados;
 
+// Exercício 8.
+
+const texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas."
+
+// 1) Busque a primeira posição de "em"
+const primeiraPosicaoEm = texto.indexOf("em");
+console.log("1) Primeira posição de 'em':", primeiraPosicaoEm);
+
+
+// 2) Busque a última posição de "ia"
+const ultimaPosicaola = texto.lastIndexOf("ia");
+console.log("2) Última posição de 'ia':", ultimaPosicaola);
+
+
+// 3) Busque a palavra "ciência"
+const palavraCiencia = /ciência/gi;
+const encontrouCiencia = texto.match(palavraCiencia);
+console.log("3) A palavra 'ciência' foi encontrada:", encontrouCiencia);
+
+
+// 4) Busque a palavra "métodos"
+const palavraMetodos = /métodos/gi;
+const encontrouMetodos = texto.match(palavraMetodos);
+console.log("4) A palavra 'métodos' foi encontrada:", encontrouMetodos);
+
+
 */
