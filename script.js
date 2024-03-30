@@ -190,5 +190,16 @@ const palavraMetodos = /métodos/gi;
 const encontrouMetodos = texto.match(palavraMetodos);
 console.log("4) A palavra 'métodos' foi encontrada:", encontrouMetodos);
 
+// Exercício 9.
+
+let variavelString = "8675309"
+
+
+console.log("Variável vale: ", variavelString);
+console.log("Variável antes: ", typeof variavelString);
+
+let variavelFloat = parseFloat(variavelString);
+
+console.log("Variável agora: ", typeof variavelFloat);
 
 */
