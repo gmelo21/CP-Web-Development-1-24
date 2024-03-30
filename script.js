@@ -71,4 +71,27 @@ function verificarFaixaEtaria() {
   let idade = prompt("Digite sua idade: ");
   let faixaEtaria = verificarFaixaEtaria();
   console.log("Sua faixa etária é de: ", faixaEtaria);
+
+  // Exercício 5.
+
+function autentificarUsuario() {
+    const nomeUsuarioCadastrado = "admin";
+    const senhaCadastrada = "1234";
   
+  
+    if (nomeUsuarioInput === nomeUsuarioCadastrado && senhaInput === senhaCadastrada) {
+      return "Login realizado com sucesso!";
+    } else {
+      return "Falha de autenticação. Nome de usuário ou senha incorretos.";
+    }
+  }
+  
+  
+  let nomeUsuarioInput = prompt("Nome de Usuário: ");
+  let senhaInput = prompt("Senha: ");
+  
+  
+  const mensagemLogin = autentificarUsuario();
+  
+  
+  console.log(mensagemLogin);
