@@ -1,3 +1,5 @@
+// TESTE
+
 /* Tudo comentado para não ter variáveis com o mesmo nome.
 
 // Código de set-up para Input de usuário no terminal do VS Code. 
